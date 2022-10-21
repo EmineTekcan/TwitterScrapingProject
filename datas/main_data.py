@@ -1,7 +1,9 @@
+from turtle import width
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+#----------------------------Positive words------------------------------------------
 url = requests.get("https://positivewordsresearch.com/olumlu-sozler-liste/", auth=('user', 'pass'))
 # print(url.status_code) ==> 200
 content = url.content
@@ -59,14 +61,18 @@ data.extend(data_z)
 
 #data = (data_a,data_b,data_c,data_d,data_e,data_f,data_g,data_h,data_ı,data_k,data_l,data_m,data_n,data_o,data_p,data_r,data_s,data_t,data_u,data_v,data_y,data_z)
 
-"""
-with open('datas.csv', mode='w') as data:
-    #newdata = csv.writer(data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    newdata = csv.writer(data,delimiter=",",quotechar="'",quoting=csv.QUOTE_MINIMAL)
-    newdata.writerow(datas)
-"""
 
 #if you want to try this folder, please change csv name
-df = pd.DataFrame(data)
-df.to_csv("PozitifSentence1.csv")
 
+df = pd.DataFrame(data)
+df.to_csv("PositiveWords1.csv")
+
+#--------------------------NEGATİVE WORDS-----------------------------------------
+url = requests.get("https://www.learnentry.com/english-turkish/negative-words-in-turkish/", auth=('user', 'pass'))
+#print(url.status_code) ==> 200
+content = url.content
+soup = BeautifulSoup(content,"html.parser")
+data = []
+data_negative = soup.find_all("tbody")
+df_negative = pd.DataFrame(data_negative)
+df_negative.to_csv("NegativeWords1.csv")
