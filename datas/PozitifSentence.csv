@@ -1,0 +1,503 @@
+0,açık
+1, açık görüşlü
+2, açık kalpli
+3, açık sözlülük
+4, açık yürekli
+5, açıklık
+6, adanmış
+7, adil
+8, af
+9, ahlâki
+10, akan
+11, akılcı
+12, akıllı
+13, akış
+14, aksiyon
+15, aktif
+16, alkışlanan
+17, ani
+18, anlamı
+19, anlamlı
+20, anlayış
+21, anlayışlı
+22, anlık
+23, arkadaş canlısı
+24, armoni
+25, arzu etmek
+26, asil
+27, aşk
+28, aydın
+29, aydınlatılmış
+30, aydınlatma
+31, aydınlık
+32, ayırt
+33, ayrılmış
+34, aziz
+35,bağ
+36, bağımsız
+37, bağışlayıcı
+38, barış
+39, başarı
+40, başarılı
+41, başarmak
+42, basit
+43, bayındır
+44, becerikli
+45, beceriklilik
+46, bedava
+47, beğenmek
+48, belagat
+49, belirgin
+50, belirlenen
+51, belirleyici
+52, belirli
+53, benzersiz
+54, berrak
+55, berraklık
+56, beslemek
+57, beslenen
+58, beslenmiş
+59, besleyici
+60, bile bile
+61, bilge
+62, bilgi
+63, bilgili
+64, bilinç
+65, bilme
+66, bir
+67, birlik
+68, bol
+69, bolluk
+70, bütün
+71, büyüleyici
+72, büyülü
+73, büyüme
+74, büyüyen
+75,çalışkan
+76, canlandırılmış
+77, canlı
+78, canlılık
+79, çarpıcı
+80, çekici
+81, çekicilik
+82, cennet
+83, cesaret
+84, cesur
+85, çiçek
+86, ciddi
+87, cilalı
+88, çocukluktan çıkan
+89, çok yönlü
+90, cömert
+91, cömertlik
+92, coşku
+93, coşkulu
+94, coşkun
+95,dayanıklılık
+96, dayanılmaz
+97, değerli
+98, değişiklik
+99, deha
+100, denge
+101, dengeli
+102, destekleyici
+103, dik
+104, dikkat çekici
+105, dikkatli
+106, dikkatlilik
+107, dinamik
+108, diplomatik
+109, dirençsiz
+110, dirilik
+111, doğal
+112, doğru sözlü
+113, doğruluk
+114, dönüştürme
+115, dönüşümsel
+116, dostane
+117, dostluk
+118, durgunluk sanatı
+119, dürüst
+120, dürüstlük
+121, düşkün
+122, düşkünlük
+123, düşünceli
+124, duygulu
+125, duygusal
+126, düzenli
+127,efsanevi
+128, eğlence
+129, eğlenceli
+130, eğlenceyi seven
+131, emniyete
+132, empati
+133, empatik
+134, en iyi
+135, enerji
+136, enerjik
+137, entellektüel
+138, erdemli
+139, eşitlik
+140, esnek
+141, esprili
+142, etkileyici
+143, etkili
+144, evet 
+145,fantastik
+146, farkında
+147, farkındalık
+148, faydalı
+149, felsefi
+150, ferahlatıcı
+151, fevkalade
+152, fikir
+153, fuar
+154, gayret
+155, gelişen
+156, genç
+157, genç-at-heart
+158, gençleşmek
+159, geniş
+160, geniş görüşlü
+161, genişletilmiş
+162, gerçek dışı
+163, gerekli
+164, getiriliyor
+165, göksel
+166, göksel sevinç
+167, görkemli
+168, göz alıcı
+169, göz kamaştırıcı
+170, güç
+171, güçlendirmek
+172, güçlenmiş
+173, güçlü
+174, güler yüzlü
+175, gülmek
+176, gülümsemek
+177, güneşli
+178, gururlu
+179, gütmek
+180, güven verici
+181, güvenen
+182, güvenli
+183, güzel
+184, güzellik
+185, hak
+186, hakiki
+187, hareketli
+188, harika
+189, harika özellikler
+190, hassas
+191, hassaslık
+192, hasta
+193, hayal etmek
+194, hayal gücü
+195, hayat
+196, hayati
+197, hayırlı
+198, hazır
+199, hazır olma
+200, hazırlanıyor
+201, hazırlanmış
+202, hediye
+203, hevesli
+204, heyecan
+205, heyecan verici
+206, heyecanlandırıcı
+207, hırslı
+208, hızlı
+209, hoş
+210, hoşgeldiniz
+211, hoşgörülü
+212, hoşnutluk
+213, huşu
+214, huzur
+215, huzurlu
+216,iç açıcı
+217, iç huzur
+218, içerik
+219, içgüdüsel
+220, içten
+221, iddialı
+222, ilahi
+223, ilerleme
+224, ilgili
+225, ilham
+226, ilık
+227, hafif sıcak
+228, ilkeli
+229, inanç
+230, inanılmaz
+231, inanmak
+232, ince
+233, işbirliği
+234, ışık
+235, ışık saçan
+236, işıltılı
+237, istekli
+238, iyi
+239, iyi hissetmek
+240, iyi kalpli
+241, iyileşmiş
+242, iyilik
+243, iyimser
+244, iyimserlik
+245, izin
+246,kabarcıklı
+247, kabul
+248, kabul edilmiş
+249, kalici
+250, kalite
+251, karıştırma
+252, karizmatik
+253, karşıladı
+254, kasa
+255, katılıyorum
+256, kazanım
+257, kendinden kabul
+258, kendine güvenen
+259, kendine hayranlık
+260, kendini seven
+261, kesinlikle
+263, keyifli
+264, kibar
+265, kıvrak zekâlı
+266, kıyaslanamaz
+267, klasik
+268, kolay
+269, kolaylaştırmak
+270, komik
+271, konfor
+272, konuşkan
+273, köpüklü
+274, köpüren
+275, korkusuz
+276, korumalı
+277, kutlama
+278, kutsal
+279, kuvvet
+280, kuvvetli
+281, komik
+282,layık
+283, lâyık olma
+284, lezzetli
+285, lokum
+286, lüks
+287,macera
+288, maceraperest
+289, manevi
+290, mantıklı
+291, melek gibi
+292, memnun
+293, merhamet
+294, merhametli
+295, merkezli
+296, mest
+297, mest olmus
+298, minnettar
+299, minnettar sevinç
+300, motive
+301, muazzam
+302, mübarek
+303, mucize
+304, mucizevi
+305, muhteşem
+306, mükemmel
+307, mükemmellik
+308, müteşekkir
+309, mütevazi
+310, mütevazı
+311, müthiş
+312, mutlu
+313, mutlu kalpli
+314, mutluluk
+315, muzaffer
+316,nazik
+317, nefes kesen
+318, nefis
+319, neşe
+320, neşeli
+321, nihai
+322, nimetler
+323, nükteli
+324,odaklı
+325, ödül
+326, öğrendi
+327, olağanüstü
+328, olumlu
+329, olumlu düşünceler
+330, olumlu enerji
+331, oluşan
+332, onaylamak
+333, onaylanan
+334, öncü
+335, onurlu
+336, öpülür
+337, orijinal
+338, otantik
+339, ötesinde-muhteşem
+340, öz disiplin
+341, özel
+342, özgecil
+343, özgünlük
+344, özgür ruhlu
+345, özgürlük
+346, özveri
+347,paha biçilemez
+348, parıldıyor
+349, parıltı
+350, parıltılı
+351, parlak
+352, parlıyor
+353, popüler
+354, pozitif
+355, pratik
+356, pro-aktif
+357,rafine
+358, rahat
+359, rahatlamış
+360, refah
+361, restore
+362, roman
+363, romantik
+364, ruh
+365, ruh ikizi
+366,sabır
+367, sabit
+368, sadece
+369, sadık
+370, saf
+371, saf sevgi ve ışık
+372, sağ
+373, sağlık
+374, sağlıklı
+375, sahibi-my-güç
+376, şakacı
+377, sakin
+378, salt mutluluk
+379, samimi
+380, şampiyon
+381, şan
+382, şanlı
+383, sanrılama
+384, şans
+385, sansasyonel
+386, şanslı
+387, sarılmak
+388, sarsılmaz
+389, şaşırtıcı
+390, saygıdeğer
+391, saygın
+392, seçim
+393, şefkât
+394, sempatik
+395, şen
+396, şerefli
+397, servet
+398, sessiz
+399, sessizlik
+400, sevecen
+401, seven
+402, sevgi dolu kabul
+403, sevilen
+404, sevimli
+405, sevinç
+406, sevinçli
+407, sevinçliyim
+408, sezgi
+409, sezgisel
+410, şifa
+411, sihirli
+412, sihirli mutluluk
+413, şimdi
+414, sınırsız
+415, şirin
+416, sırıtış
+417, sokulgan
+418, sonsuz
+419, sonsuzluk
+420, sosyal
+421, şükran
+422, sulu
+423, süper
+424, sürekli
+425, takdir
+426, tam
+427, tamam
+428, tanıdık
+429, tanınmış
+430, tanrıça
+431, tapılası
+432, tarafsız
+433, tarifsiz
+434, tatlı
+435, tatmin edici
+436, taze
+437, tebrik
+438, temiz
+439, tereddütsüz
+440, tesadüfi
+441, teşvik edici
+442, topraklı
+443, tür
+444, tür kalp
+445, tutkulu
+446, umut
+447, umutlu
+448, ünlü
+449, unutulmaz
+450, üretken
+451, ustaca
+452, ustalık
+453, üstleri
+454, utangaç
+455, uyarılmış
+456, uyarlanabilir
+457, uydurma
+458, uyumlu
+459, uzun ömürlü
+460,varlıklı
+461, vay
+462, vererek
+463, verimli
+464, vicdanlı
+465, vınlama
+467, yakınlık
+468, yakışık alır
+469, yakışıklı
+470, yankılanan
+471, yararlı
+472, yaratıcı
+473, yaratıcılığı
+474, yaratıcılık
+475, yardımseverlik
+476, yaşasın
+477, yenilenen
+478, yenilenmiş
+479, yenilik
+480, yenilikçi
+481, yenilmez
+482, yer
+483, yerine getirilmiştir
+484, yeşil
+485, yetenek
+486, yetenekli
+487, yeter
+488, yıldız gibi
+489, yıldızı parladı
+490, yüce
+491, yukarı
+492, yüksek şevkli
+493, yükselmiş
+494, yürekten
+495,zafer
+496, zahmetsiz
+497, zarafet
+498, zarif
+499, zeka
+500, zengin
+501, zevkli
+502, zinde
+503, zorlu
+504, züppe
