@@ -20,16 +20,16 @@ def twitter_func():
         sign_in=driver.find_element(By.XPATH,"//div/div/div/div[2]/main/div/div/div/div/div/div[3]/div[5]/a")
         sign_in.click()
 
-        #Get username field
-        username_input=driver.find_element(By.XPATH,"//input[@autocomplete='username']")
-        username_input.send_keys(username) #Enter your valid username or email or phone number
+        
+        username_input=driver.find_element(By.XPATH,"//input[@autocomplete='username']")  # Get username field
+        username_input.send_keys(username)   #Enter your valid username or email or phone number
 
         next_btn=driver.find_element(By.XPATH,"//*[@id='layers']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div")
         next_btn.click()
 
         driver.implicitly_wait(5)
         password_input=driver.find_element(By.XPATH,"//input[@autocomplete='current-password']")
-        password_input.send_keys(password) #Enter your valid password
+        password_input.send_keys(password)  #Enter your valid password
 
         login_btn=driver.find_element(By.XPATH,"//*[@id='layers']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div")
         login_btn.click()
@@ -80,7 +80,7 @@ def get_tweets():
             
 
             print('--------------------------------------------------------------------------------------')
-            #tweet icerigi
+            #contains tweet text
             try:
                 text = item.find_element(By.XPATH, './/div[@data-testid="tweetText"]').text 
                              
@@ -88,7 +88,7 @@ def get_tweets():
                 text = '[empty]'
             print(text)
 
-            #tweet tarih
+            #contains tweet ' date
             try:
                 date = item.find_element(By.XPATH, './/time').text
             except:
@@ -96,6 +96,7 @@ def get_tweets():
             print(date)
 
             
+            #contains user name
             try:
                 user_name = item.find_element(By.XPATH, '//*[@id ="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/section/div/div/div[3]/div/div/div/article/div/div/div/div[2]/div[2]/div[1]/div/div/div[1]/div/div/div[1]/div/a/div/div[1]/span').text
             except:
@@ -103,12 +104,14 @@ def get_tweets():
          
             print(user_name)
 
+            #contains tweet's like count
             try:
                 like_count=item.find_element(By.XPATH,"//*[@id ='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/section/div/div/div[4]/div/div/div/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div[3]/div/div/div[2]/span/span/span").text
             except:
                 like_count=0
             print(like_count)
-
+            
+            #contains tweet's comment count
             try:
                 comment_count=item.find_element(By.XPATH,"//*[@id ='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/section/div/div/div[3]/div/div/div/article/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div[1]/div/div/div[2]/span/span/span").text
             except:
@@ -125,7 +128,7 @@ def get_tweets():
             else:
                 last_elem = current_elem
     df = pd.DataFrame(tweets, columns=['Text', 'User Name', 'Date of Tweet', 'Like Count',"Comment Count"])
-    df.to_csv('tweets.csv' , encoding='utf-8') #save a csv file 
+    df.to_csv('tweets.csv' , encoding='utf-8') #save to csv file 
 
 
             
