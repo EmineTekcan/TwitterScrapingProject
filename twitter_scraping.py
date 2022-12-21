@@ -17,7 +17,7 @@ def twitter_func():
 
         driver.maximize_window()
 
-        sign_in=driver.find_element(By.XPATH,"//div/div/div/div[2]/main/div/div/div/div/div/div[3]/div[5]/a")
+        sign_in=driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[1]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/a")
         sign_in.click()
 
         
@@ -134,7 +134,7 @@ def get_tweets():
             
 twitter_func()
 time.sleep(5)
-search("Hadise")
+search("Fifa")
 time.sleep(1)
 get_tweets()
 
