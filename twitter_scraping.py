@@ -134,7 +134,7 @@ def get_tweets():
             
 twitter_func()
 time.sleep(5)
-search("Fifa")
+search("Dünya kupası")
 time.sleep(1)
 get_tweets()
 
