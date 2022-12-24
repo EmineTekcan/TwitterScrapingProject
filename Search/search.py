@@ -1,9 +1,9 @@
 import pandas as pd
 
-data_words_negative = pd.read_csv("Datas/NegativeWords.csv",index_col=0)
+data_words_negative = pd.read_csv("datas/NegativeWordsEng.csv",index_col=0)
 column_name_negative = data_words_negative["NegativeWords"]
 
-data_words_positive = pd.read_csv("Datas/PositiveWords.csv",index_col=0)
+data_words_positive = pd.read_csv("datas/PositiveWordsEng.csv",index_col=0)
 column_name_positive = data_words_positive["PositiveWords"]
 
 data_tw = pd.read_csv("tweets.csv")
