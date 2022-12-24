@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+"""
 #----------------------------Positive words------------------------------------------
 url = requests.get("https://positivewordsresearch.com/olumlu-sozler-liste/", auth=('user', 'pass'))
 # print(url.status_code) ==> 200
@@ -65,7 +66,7 @@ data.extend(data_z)
 #if you want to try this folder, please change csv name
 
 df = pd.DataFrame(data)
-df.to_csv("PositiveWords1.csv")
+df.to_csv("datas/PositiveWords1.csv")
 
 #--------------------------NEGATİVE WORDS-----------------------------------------
 url = requests.get("https://www.learnentry.com/english-turkish/negative-words-in-turkish/", auth=('user', 'pass'))
@@ -75,4 +76,15 @@ soup = BeautifulSoup(content,"html.parser")
 data = []
 data_negative = soup.find_all("tbody")
 df_negative = pd.DataFrame(data_negative)
-df_negative.to_csv("NegativeWords1.csv")
+df_negative.to_csv("datas/NegativeWords1.csv")
+
+"""
+
+df1 = pd.read_csv("datas/NegativeWordsEng.txt",sep=" ", header=None, names=["NegativeWords"])
+read_file_negative = pd.DataFrame(df1)
+read_file_negative.to_csv("datas/NegativeWordsEng.csv")
+
+
+df = pd.read_csv("datas/PositiveWordsEng.txt",sep=" ", header=None, names=["PositiveWords"])
+read_file_positive = pd.DataFrame(df)
+read_file_positive.to_csv("datas/PositiveWordsEng.csv")
