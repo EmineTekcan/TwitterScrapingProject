@@ -6,7 +6,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 from twitter_user_info import username,password
 from selenium.webdriver.common.keys import Keys
-
+#####"
+"""
+from selenium.webdriver.chrome.options import Options
+ayarlar = Options()
+ayarlar.add_argument("--headless")
+driver = webdriver.Chrome(options=ayarlar)
+"""
 driver=webdriver.Chrome()
 
 def twitter_func():
@@ -36,7 +42,7 @@ def twitter_func():
     except Exception as e:
         print(e)
 
-def search(hastag):
+def search_tweets(hastag):
     search_input=driver.find_element(By.XPATH,"//*[@id='react-root']/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div/label/div[2]/div/input")
     search_input.send_keys(hastag)
     time.sleep(2)
@@ -117,7 +123,7 @@ def get_tweets():
             except:
                 comment_count=0
             print(comment_count)
-            
+           
 
             tweets.append([ text, user_name, date,like_count,comment_count])
             
@@ -128,14 +134,14 @@ def get_tweets():
             else:
                 last_elem = current_elem
     df = pd.DataFrame(tweets, columns=['Text', 'User Name', 'Date of Tweet', 'Like Count',"Comment Count"])
-    df.to_csv('tweets.csv' , encoding='utf-8') #save to csv file 
+    df.to_csv('TwitterScrapingProject/datas/tweets.csv' , encoding='utf-8') #save to csv file 
 
 
-            
+""" 
 twitter_func()
 time.sleep(5)
-search("Dünya kupası")
+search("Taylor Swift")
 time.sleep(1)
 get_tweets()
-
+"""
 

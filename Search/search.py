@@ -1,13 +1,16 @@
 import pandas as pd
-
-data_words_negative = pd.read_csv("datas/NegativeWordsEng.csv",index_col=0)
+"""""
+data_words_negative = pd.read_csv("TwitterScrapingProject/datas/NegativeWordsEng.csv",index_col=0)
 column_name_negative = data_words_negative["NegativeWords"]
 
-data_words_positive = pd.read_csv("datas/PositiveWordsEng.csv",index_col=0)
+data_words_positive = pd.read_csv("TwitterScrapingProject/datas/PositiveWordsEng.csv",index_col=0)
 column_name_positive = data_words_positive["PositiveWords"]
 
-data_tw = pd.read_csv("tweets.csv")
+data_tw = pd.read_csv("TwitterScrapingProject/datas/tweets.csv")
 data_tw = data_tw["Text"]
+"""
+
+
 #print(len(data_tw))
 
 def search_tw(data_words,data_tw):
@@ -29,15 +32,15 @@ def search_tw(data_words,data_tw):
          
     return liste 
 
-
+"""
 data_negative = search_tw(column_name_negative,data_tw)
 NegativeSentence = pd.DataFrame(data_negative,columns=["Tweets"])
-NegativeSentence.to_csv("Search/NegativeSentence.csv")
+NegativeSentence.to_csv("TwitterScrapingProject/Search/NegativeSentence.csv")
 
 data_positive = search_tw(column_name_positive,data_tw)
 PositiveSentence = pd.DataFrame(data_positive,columns=["Tweets"])
-PositiveSentence.to_csv("Search/PositiveSentence.csv")
-
+PositiveSentence.to_csv("TwitterScrapingProject/Search/PositiveSentence.csv")
+"""
 
 #Most positive and negative tweets
 
@@ -74,19 +77,19 @@ def most(data_tw,data_words):
                        
     return most_tweet
 
-
-data_positive_tweets = pd.read_csv("Search/PositiveSentence.csv")
+"""""
+data_positive_tweets = pd.read_csv("TwitterScrapingProject/Search/PositiveSentence.csv")
 data_positive_column = data_positive_tweets["Tweets"]
 most_positive_tweet = most(data_positive_column,column_name_positive)  
 
 MostPositiveSentence = pd.DataFrame(most_positive_tweet,columns=["Tweets"])
-MostPositiveSentence.to_csv("Search/MostPositiveSentence.csv")
+MostPositiveSentence.to_csv("TwitterScrapingProject/Search/MostPositiveSentence.csv")
 
 #########
 
-data_negative_tweets = pd.read_csv("Search/NegativeSentence.csv")
+data_negative_tweets = pd.read_csv("TwitterScrapingProject/Search/NegativeSentence.csv")
 data_negative_column = data_negative_tweets["Tweets"]
 most_negative_tweet = most(data_negative_column,column_name_negative)  
 
 MostNegativeSentence = pd.DataFrame(most_negative_tweet,columns=["Tweets"])
-MostNegativeSentence.to_csv("Search/MostNegativeSentence.csv")
+MostNegativeSentence.to_csv("TwitterScrapingProject/Search/MostNegativeSentence.csv")"""
