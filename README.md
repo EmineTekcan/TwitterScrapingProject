@@ -38,7 +38,7 @@ Wait for about 7 minutes. The results will be in front of you.
 
 
 
-## Authors
+## Developers
 
 * **Esmanur Deli**  - [Esmanur](https://github.com/esmadl)
 * **Kübra Uçar**  - [Kübra](https://github.com/kubraucar1)
