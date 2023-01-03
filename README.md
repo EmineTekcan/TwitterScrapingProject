@@ -33,7 +33,7 @@ pip install PythonTurtle
 
 ## Deployment
 
-Run the twitter_scaping.py file. In the interface, type the word you want in the search section and click the button. 
+Run the ui.py file. In the interface, type the word you want in the search section and click the button. 
 Wait for about 7 minutes. The results will be in front of you.
 
 
