@@ -106,13 +106,13 @@ class MainWindow(QMainWindow):
         csv_3 = "TwitterScrapingProject/Search/MostPositiveSentence.csv"
         csv_4 = "TwitterScrapingProject/Search/MostNegativeSentence.csv"
 
-        with open(csv_1) as f:
+        with open(csv_1,encoding="utf-8") as f:
             csv1_content = f.read()
-        with open(csv_2) as f:
+        with open(csv_2,encoding="utf-8") as f:
             csv2_content = f.read()
-        with open(csv_3) as f:
+        with open(csv_3,encoding="utf-8") as f:
             csv3_content = f.read()
-        with open(csv_4) as f:
+        with open(csv_4,encoding="utf-8") as f:
             csv4_content = f.read()
 
         # QTextEdit nesnelerine csv dosyalarını yükleyin
